@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
