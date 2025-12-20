@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -26,11 +27,11 @@
     "iconv-lite": "^0.6.3",
     "marked": "^15.0.7",
     "nanoid": "^5.1.5",
-    "next": "15.2.8",
+    "next": "15.2.6",
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^5.4.54",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
     "react-pdf": "^10.0.1",
     "react-qrcode-logo": "^3.0.0",
     "turndown": "^7.2.0",
@@ -45,7 +46,7 @@
     "@types/turndown": "^5.0.5",
     "autoprefixer": "^10.4.19",
     "eslint": "^9",
-    "eslint-config-next": "15.2.3",
+    "eslint-config-next": "15.2.6",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
