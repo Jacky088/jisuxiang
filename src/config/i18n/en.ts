@@ -34,6 +34,7 @@ export const en = {
     cron_generator: tools.cron_generator.en,
     icon_designer: tools.icon_designer.en,
     password_generator: tools.password_generator.en,
+    subnet_calculator: tools.subnet_calculator.en,
 
     pdf_converter: tools.pdf_converter.en,
     pdf_manager: tools.pdf_manager.en,

@@ -95,6 +95,12 @@ const tools: Tool[] = [
     keywords: ['ip查询', 'ip地址', 'ip归属地', '地址查询', 'ip', 'ip归属', 'dizhi', 'dz', 'ip地址查询', 'ipdz']
   },
   {
+    code: 'subnet_calculator',
+    icon: faNetworkWired,
+    category: ['network'],
+    keywords: ['子网计算', '子网划分', '子网掩码', '网段计算', '掩码计算', '网络地址', '广播地址', 'cidr', 'subnet', 'mask', 'subnet calculator', 'ziwang', 'zw', 'yanma', 'ym', 'wangduan', 'wd']
+  },
+  {
     code: 'date_calculator',
     icon: faCalendarAlt,
     category: ['datetime'],

@@ -29,6 +29,7 @@ import cronGenerator from './cron_generator';
 import { iconDesigner } from './icon_designer';
 import { pdfConverterI18n } from './pdf_converter';
 import { passwordGenerator } from './password_generator';
+import subnetCalculator from './subnet_calculator';
 
 import { pdfManager } from './pdf_manager';
 import { pdfCompressor } from './pdf_compressor';
@@ -63,6 +64,7 @@ export const tools = {
   cron_generator: cronGenerator,
   icon_designer: iconDesigner,
   password_generator: passwordGenerator,
+  subnet_calculator: subnetCalculator,
 
   pdf_converter: pdfConverterI18n,
 
