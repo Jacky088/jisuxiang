@@ -213,7 +213,12 @@ const tools: Tool[] = [
     category: ['pdf'],
     keywords: ['pdf压缩', 'pdf压缩器', '压缩pdf', 'pdf压缩工具', 'pdf compressor', 'pdf压缩软件', 'pdf', 'yasuo', 'ys', 'yasuoqi', 'ysq']
   },
-
+  {
+    code: 'file_to_markdown_converter',
+    icon: faFileCode,
+    category: ['common', 'text'],
+    keywords: ['文件转换', 'markdown', 'html转markdown', 'word转markdown', 'pdf转markdown', 'doc转markdown', 'ppt转markdown', 'excel转markdown', '转换工具', 'file to markdown', 'wenzhang']
+  },
 
 ] as Tool[];
 

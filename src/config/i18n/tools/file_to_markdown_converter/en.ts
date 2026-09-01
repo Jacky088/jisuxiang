@@ -1,0 +1,32 @@
+export const fileToMarkdownConverterEn = {
+  title: 'File to Markdown Converter',
+  description: 'Convert various file formats (Word, PDF, PPT, Excel, OpenDocument, HTML, etc., including legacy .doc/.ppt/.xls) to Markdown',
+  select_file: 'Select File',
+  select_files: 'Select Files',
+  drop_file_here: 'Drop file here',
+  or: 'or',
+  browse_files: 'Browse files',
+  supported_formats: 'Supported formats: .doc/.docx, .ppt/.pptx, .xls/.xlsx, .odt/.ods/.odp, .pdf, .rtf, .epub, .csv, .html, .txt, .json, .xml, .md',
+  convert: 'Convert',
+  convert_all: 'Convert All',
+  converting: 'Converting...',
+  copy: 'Copy',
+  copied: 'Copied',
+  download: 'Download',
+  download_all: 'Download All',
+  clear: 'Clear',
+  clear_all: 'Clear All',
+  no_file_selected: 'Please select a file first',
+  file_too_large: 'File is too large, please choose a file smaller than 50MB (current file size: {size}MB)',
+  unsupported_format: 'Unsupported file format(s) skipped: {files}',
+  conversion_success: 'Conversion successful! Time taken: {time} seconds',
+  conversion_error: 'File conversion failed, please try again',
+  copy_failed: 'Failed to copy to clipboard',
+  markdown_output: 'Markdown Output',
+  file_size: 'File Size',
+  files_selected: '{count} files selected',
+  pending: 'Pending',
+  batch_done: 'Batch completed. Success: {success}, Failed: {failed}'
+};
+
+export default fileToMarkdownConverterEn; 

@@ -1,4 +1,4 @@
-import commonEn from './common/en';
+﻿import commonEn from './common/en';
 import tools from './tools';
 
 export const en = {
@@ -14,6 +14,7 @@ export const en = {
     css_gradient_generator: tools.css_gradient_generator.en,
     date_calculator: tools.date_calculator.en,
     html_markdown_converter: tools.html_markdown_converter.en,
+    file_to_markdown_converter: tools.file_to_markdown_converter.en,
     http_tester: tools.http_tester.en,
     image_compressor: tools.image_compressor.en,
     ip_lookup: tools.ip_lookup.en,

@@ -8,6 +8,7 @@ import cryptoTools from './crypto_tools';
 import cssGradientGenerator from './css_gradient_generator';
 import dateCalculator from './date_calculator';
 import htmlMarkdownConverter from './html_markdown_converter';
+import fileToMarkdownConverter from './file_to_markdown_converter';
 import httpTester from './http_tester';
 import imageCompressor from './image_compressor';
 import ipLookup from './ip_lookup';
@@ -44,6 +45,7 @@ export const tools = {
   css_gradient_generator: cssGradientGenerator,
   date_calculator: dateCalculator,
   html_markdown_converter: htmlMarkdownConverter,
+  file_to_markdown_converter: fileToMarkdownConverter,
   http_tester: httpTester,
   image_compressor: imageCompressor,
   ip_lookup: ipLookup,
