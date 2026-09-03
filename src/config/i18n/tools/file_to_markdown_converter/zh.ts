@@ -1,0 +1,32 @@
+export const fileToMarkdownConverterZh = {
+  title: '文件格式转Markdown',
+  description: '支持多种文件格式（Word、PDF、PPT、Excel、OpenDocument、HTML 等，含旧版 .doc/.ppt/.xls）转换为Markdown格式',
+  select_file: '选择文件',
+  select_files: '选择多个文件',
+  drop_file_here: '拖放文件到此处',
+  or: '或',
+  browse_files: '浏览文件',
+  supported_formats: '支持的格式: .doc/.docx, .ppt/.pptx, .xls/.xlsx, .odt/.ods/.odp, .pdf, .rtf, .epub, .csv, .html, .txt, .json, .xml, .md',
+  convert: '转换',
+  convert_all: '批量转换',
+  converting: '转换中...',
+  copy: '复制',
+  copied: '已复制',
+  download: '下载',
+  download_all: '批量下载',
+  clear: '清除',
+  clear_all: '清空列表',
+  no_file_selected: '请先选择一个文件',
+  file_too_large: '文件过大，请选择小于 50MB 的文件（当前文件大小: {size}MB）',
+  unsupported_format: '以下文件格式不支持，已跳过：{files}',
+  conversion_success: '转换成功！耗时: {time}秒',
+  conversion_error: '文件转换失败，请重试',
+  copy_failed: '复制到剪贴板失败',
+  markdown_output: 'Markdown输出',
+  file_size: '文件大小',
+  files_selected: '已选择 {count} 个文件',
+  pending: '等待中',
+  batch_done: '批量完成。成功 {success} 个，失败 {failed} 个'
+};
+
+export default fileToMarkdownConverterZh; 

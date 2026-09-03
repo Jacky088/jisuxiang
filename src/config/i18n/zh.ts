@@ -1,4 +1,4 @@
-import commonZh from './common/zh';
+﻿import commonZh from './common/zh';
 import tools from './tools';
 
 export const zh = {
@@ -14,6 +14,7 @@ export const zh = {
     css_gradient_generator: tools.css_gradient_generator.zh,
     date_calculator: tools.date_calculator.zh,
     html_markdown_converter: tools.html_markdown_converter.zh,
+    file_to_markdown_converter: tools.file_to_markdown_converter.zh,
     http_tester: tools.http_tester.zh,
     image_compressor: tools.image_compressor.zh,
     ip_lookup: tools.ip_lookup.zh,
@@ -34,6 +35,7 @@ export const zh = {
     cron_generator: tools.cron_generator.zh,
     icon_designer: tools.icon_designer.zh,
     password_generator: tools.password_generator.zh,
+    subnet_calculator: tools.subnet_calculator.zh,
 
     pdf_converter: tools.pdf_converter.zh,
     pdf_manager: tools.pdf_manager.zh,
